@@ -39,7 +39,7 @@ class App extends Component{
   render(){
     return(
       <div className="App">
-        <Greet name= "diana" heroName="batman"/>
+        <Greet name= "zainab" heroName="manizeh."/>
         <div><h2>Boss! Bohat Mushkil horahi hai yahan., in starting only</h2>
         </div>
 <Welcome/>
