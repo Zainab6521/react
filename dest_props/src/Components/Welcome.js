@@ -5,7 +5,7 @@ class Welcome extends Component {
     const{name, heroName} =  this.props
     return(
       <h1>
-        welcome {name} a.k.a {heroName}
+        welcome Zainab{name} a.k.a "Manizeh"{heroName}
       </h1>
     )
   }
