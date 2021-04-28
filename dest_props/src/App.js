@@ -31,7 +31,6 @@ import './App.css'
 
 import Main from './Components/Main'
 
-
 // import Greet from './Components/Greet'
 // import Welcome from './Components/Welcome'
 // import Hello from './Components/Hello'
@@ -59,7 +58,6 @@ class App extends Component {
       <div className="App">
     <Main/>
       </div>
-        
     )
   }
 }

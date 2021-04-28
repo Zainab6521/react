@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Inputs from './Components/Inputs';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <Hookcon/> */}
+    {/* <Functional/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -16,6 +18,3 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-
-ReactDOM.render(<Inputs />, document.querySelector('#root'));
