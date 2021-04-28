@@ -15,9 +15,10 @@ const MyButton = styled(Button)({
 export function Hello(props){
   const [name, setName] = useState("");
   const [Age, setAge] = useState("");
+  const [message, setMessage] = useState("");
   const handleSubmit = (evt) => {
       evt.preventDefault();
-      alert(`Name Submitted: ${name} \n Age submitted: ${Age}`)
+      alert(`Name Submitted: ${name} \n Age submitted: ${Age} \n Msg: ${message}`)
       // document.write(`Name submitted ${name}`)
   }
   return (
@@ -37,12 +38,16 @@ export function Hello(props){
           onChange={e => setAge(e.target.value)}
         />
         <br/>
-        <input type="textArea" />
+        Leave a Message:
+        <input type="textArea"
+        value={message}
+        onChange={e => setMessage(e.target.value)}
+        />
       </label>
       <br/>
       {/* <input type="submit" value="Submit" /> */}
       {/* <Button type="submit" variant="contained" color="primary">Submit</Button> */}
-      <MyButton>Submit</MyButton>
+      <MyButton type="submit">Submit</MyButton>
     </form>
   );
 }
