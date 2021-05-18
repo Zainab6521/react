@@ -1,6 +1,6 @@
 import './App.css';
-import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import React from 'react';
+import { Route, Switch, Link } from 'react-router-dom';
 import Home from './Components/Home';
 import About from './Components/About';
 import Shop from './Components/Shop';
@@ -18,7 +18,7 @@ function App() {
         <Home />
           </Route>
       <Route path="/About" component={About} />
-      <Route path="/Shop" Component={Shop} />
+      <Route path="/Shop" component={Shop} />
       {/* <Route path="/" exact >
         <Shop />
         </Route> */}
