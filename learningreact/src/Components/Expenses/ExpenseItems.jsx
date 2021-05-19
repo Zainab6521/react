@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import NewExpense from "../NewExpense/NewExpense";
 import ExpenseDate from "./ExpenseDate";
 import "./ExpenseItems.css";
 
@@ -9,7 +10,6 @@ const ExpenseItem = (props) => {
 
   const clickHandler = () => {
     setTitle('Updated!')
-    console.log("jssssssssssss");
   };
   return (
     <div className="expense-item">

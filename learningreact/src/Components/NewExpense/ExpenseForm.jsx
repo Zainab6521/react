@@ -4,10 +4,12 @@ import './ExpenseForm.css';
 const ExpenseForm = () => {
   return (
     <form>
+      <h1>Welcome!</h1>
       <div className='new-expense__controls'>
         <div className='new-expense__control'>
           <label>Title</label>
           <input type='text' />
+
         </div>
         <div className='new-expense__control'>
           <label>Amount</label>
